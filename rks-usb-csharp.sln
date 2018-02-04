@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2024
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rks-usb-csharp", "rks-usb-csharp\rks-usb-csharp.csproj", "{492C3460-3C95-43D7-81BF-361E5637F195}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rks-usb-csharp.UnitTests", "rks-usb-csharp.UnitTests\rks-usb-csharp.UnitTests.csproj", "{48CD8616-3E52-4803-9150-605086B5B444}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Fake-RKS-USB", "Fake-RKS-USB\Fake-RKS-USB.vcxproj", "{1CAD170E-CF01-4E3D-8FE5-D0CF9EFE6194}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{492C3460-3C95-43D7-81BF-361E5637F195}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{492C3460-3C95-43D7-81BF-361E5637F195}.Debug|x64.Build.0 = Debug|Any CPU
+		{492C3460-3C95-43D7-81BF-361E5637F195}.Debug|x86.ActiveCfg = Debug|x86
+		{492C3460-3C95-43D7-81BF-361E5637F195}.Debug|x86.Build.0 = Debug|x86
+		{492C3460-3C95-43D7-81BF-361E5637F195}.Release|x64.ActiveCfg = Release|Any CPU
+		{492C3460-3C95-43D7-81BF-361E5637F195}.Release|x64.Build.0 = Release|Any CPU
+		{492C3460-3C95-43D7-81BF-361E5637F195}.Release|x86.ActiveCfg = Release|x86
+		{492C3460-3C95-43D7-81BF-361E5637F195}.Release|x86.Build.0 = Release|x86
+		{48CD8616-3E52-4803-9150-605086B5B444}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{48CD8616-3E52-4803-9150-605086B5B444}.Debug|x64.Build.0 = Debug|Any CPU
+		{48CD8616-3E52-4803-9150-605086B5B444}.Debug|x86.ActiveCfg = Debug|x86
+		{48CD8616-3E52-4803-9150-605086B5B444}.Debug|x86.Build.0 = Debug|x86
+		{48CD8616-3E52-4803-9150-605086B5B444}.Release|x64.ActiveCfg = Release|Any CPU
+		{48CD8616-3E52-4803-9150-605086B5B444}.Release|x64.Build.0 = Release|Any CPU
+		{48CD8616-3E52-4803-9150-605086B5B444}.Release|x86.ActiveCfg = Release|x86
+		{48CD8616-3E52-4803-9150-605086B5B444}.Release|x86.Build.0 = Release|x86
+		{1CAD170E-CF01-4E3D-8FE5-D0CF9EFE6194}.Debug|x64.ActiveCfg = Debug|x64
+		{1CAD170E-CF01-4E3D-8FE5-D0CF9EFE6194}.Debug|x64.Build.0 = Debug|x64
+		{1CAD170E-CF01-4E3D-8FE5-D0CF9EFE6194}.Debug|x86.ActiveCfg = Debug|Win32
+		{1CAD170E-CF01-4E3D-8FE5-D0CF9EFE6194}.Debug|x86.Build.0 = Debug|Win32
+		{1CAD170E-CF01-4E3D-8FE5-D0CF9EFE6194}.Release|x64.ActiveCfg = Release|x64
+		{1CAD170E-CF01-4E3D-8FE5-D0CF9EFE6194}.Release|x64.Build.0 = Release|x64
+		{1CAD170E-CF01-4E3D-8FE5-D0CF9EFE6194}.Release|x86.ActiveCfg = Release|Win32
+		{1CAD170E-CF01-4E3D-8FE5-D0CF9EFE6194}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B3C99498-ECAC-4055-9D59-BA2AD3577AE3}
+	EndGlobalSection
+EndGlobal
